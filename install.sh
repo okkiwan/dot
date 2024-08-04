@@ -4,7 +4,7 @@
 apps="git tmux irssi docker.io docker-compose"
 base="wget curl ripgrep unzip jq ffmpeg build-essential"
 c="clang clangd clang-format make cmake automake bear"
-gui_apps="vlc galculator gparted keepassxc"
+gui_apps="vlc galculator gparted keepassxc blueman"
 gui_utils="redshift redshift-gtk xclip fonts-jetbrains-mono"
 sudo apt-get install -y $base $c $apps $gui_apps $gui_utils
 
