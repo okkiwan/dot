@@ -24,7 +24,7 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 
 # nodejs & npm packages
-nvm install v20.13.1
+nvm install v20.16.0
 npm i -g npm@latest
 npm i -g typescript typescript-language-server vscode-langservers-extracted http-server prettier @johnnymorganz/stylua-bin
 
