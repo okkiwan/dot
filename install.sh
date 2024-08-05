@@ -4,13 +4,13 @@
 apps="git tmux irssi docker.io docker-compose"
 base="wget curl ripgrep unzip jq ffmpeg build-essential"
 c="clang clangd clang-format make cmake automake bear"
-gui_apps="vlc galculator gparted keepassxc blueman"
-gui_utils="redshift redshift-gtk xclip fonts-jetbrains-mono"
-sudo apt-get install -y $base $c $apps $gui_apps $gui_utils
+sway="alacritty light sway swaybg bemenu"
+gui="thunar vlc pavucontrol keepassxc gammastep fonts-jetbrains-mono"
+sudo apt-get install -y $apps $base $c $sway $gui
 
 # dirs & configs
 mkdir -p ~/.local/bin
-cp -r .irssi .config .tmux.conf ~
+cp -r .irssi .config .tmux.conf .alacritty.yml ~
 echo 'PATH=$PATH:~/.local/bin' >> ~/.bashrc
 echo 'export VISUAL=nvim EDITOR=nvim' >> ~/.bashrc
 
