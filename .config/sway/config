@@ -68,8 +68,8 @@ bindsym $mod+Shift+0 move container to workspace number 10
 # fullscreen
 bindsym $mod+f fullscreen
 
-# fullscreen
-bindsym $mod+e exec thunar
+# screenshot
+bindsym Print exec grim
 
 # brightness
 bindsym XF86MonBrightnessUp exec light -A 2
