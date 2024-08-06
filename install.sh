@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # packages
-apps="git tmux irssi docker.io docker-compose"
+apps="git tmux irssi docker.io docker-compose network-manager"
 base="wget curl ripgrep unzip jq ffmpeg build-essential"
 c="clang clangd clang-format make cmake automake bear"
 sway="alacritty light sway swaybg bemenu"
