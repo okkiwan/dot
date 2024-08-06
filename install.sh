@@ -6,7 +6,7 @@ base="wget curl ripgrep unzip jq ffmpeg build-essential"
 c="clang clangd clang-format make cmake automake bear"
 sway="alacritty light sway swaybg bemenu"
 gui_apps="thunar vlc keepassxc firefox-esr imv"
-gui_tools="pavucontrol pamixer gammastep fonts-jetbrains-mono"
+gui_tools="pavucontrol pamixer gammastep wl-clipboard fonts-jetbrains-mono"
 sudo apt-get install -y $apps $base $c $sway $gui_apps $gui_tools
 
 # dirs & configs
