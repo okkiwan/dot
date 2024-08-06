@@ -5,7 +5,7 @@ apps="git tmux irssi docker.io docker-compose"
 base="wget curl ripgrep unzip jq ffmpeg build-essential"
 c="clang clangd clang-format make cmake automake bear"
 sway="alacritty light sway swaybg bemenu"
-gui="thunar vlc pavucontrol keepassxc gammastep fonts-jetbrains-mono"
+gui="thunar vlc pavucontrol keepassxc gammastep fonts-jetbrains-mono pamixer"
 sudo apt-get install -y $apps $base $c $sway $gui
 
 # dirs & configs

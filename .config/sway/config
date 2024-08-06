@@ -75,6 +75,11 @@ bindsym $mod+e exec thunar
 bindsym XF86MonBrightnessUp exec light -A 2
 bindsym XF86MonBrightnessDown exec light -U 2
 
+# volume
+bindsym XF86AudioRaiseVolume exec pamixer -u -i 5
+bindsym XF86AudioLowerVolume exec pamixer -d 5
+bindsym XF86AudioMute exec pamixer --toggle-mute
+
 # resize
 mode "resize" {
     bindsym $left resize shrink width 20px
