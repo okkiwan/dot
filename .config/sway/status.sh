@@ -1,5 +1,6 @@
 # battery capacity
-battery=$(cat /sys/class/power_supply/BAT0/capacity)
+battery_charge=$(cat /sys/class/power_supply/BAT0/capacity)
+battery_status=$(cat /sys/class/power_supply/BAT0/status)
 
 # date
 date=$(date +'%Y-%m-%d %I:%M %p')
@@ -12,4 +13,4 @@ else
 fi
 
 #output
-echo "$volume | $battery% | $date"
+echo "$volume | $battery_charge% ($battery_status) | $date"
